@@ -1,0 +1,14 @@
+{
+  "owner": "Bảo",
+  "status": "not_run",
+  "seed": 42,
+  "train_manifest": null,
+  "validation_manifest": null,
+  "test_manifest": null,
+  "base_model": null,
+  "model_revision": null,
+  "learning_rate": null,
+  "sampling_weights": {},
+  "output_artifact": null,
+  "notes": "Điền theo thực nghiệm; không phải cấu hình tối ưu đã kiểm chứng."
+}

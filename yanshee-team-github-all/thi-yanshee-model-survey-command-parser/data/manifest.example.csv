@@ -1,0 +1,2 @@
+id,audio_path,text,duration_sec,source_dataset,source_revision,original_split,split,speaker_id,region,session_id,is_synthetic
+example_only,audio/example.wav,tiến hai bước,,robot_recordings,,train,train,example_speaker,unknown,example_session,false

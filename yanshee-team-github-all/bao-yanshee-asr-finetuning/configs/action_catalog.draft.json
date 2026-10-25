@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "confirmed_on_robot": false,
+  "note": "DRAFT: Khoa phải xác nhận API và giới hạn; executor không được sử dụng khi chưa xác nhận.",
+  "actions": [
+    {
+      "name": "move_forward",
+      "parameters": {
+        "steps": {
+          "type": "integer",
+          "min": null,
+          "max": null
+        }
+      },
+      "yanapi_mapping": null
+    },
+    {
+      "name": "move_backward",
+      "parameters": {
+        "steps": {
+          "type": "integer",
+          "min": null,
+          "max": null
+        }
+      },
+      "yanapi_mapping": null
+    },
+    {
+      "name": "turn",
+      "parameters": {
+        "direction": {
+          "enum": [
+            "left",
+            "right"
+          ]
+        },
+        "angle_deg": {
+          "type": "number",
+          "min": null,
+          "max": null
+        }
+      },
+      "yanapi_mapping": null
+    },
+    {
+      "name": "stop",
+      "parameters": {},
+      "yanapi_mapping": null
+    },
+    {
+      "name": "wave",
+      "parameters": {},
+      "yanapi_mapping": null
+    }
+  ]
+}
